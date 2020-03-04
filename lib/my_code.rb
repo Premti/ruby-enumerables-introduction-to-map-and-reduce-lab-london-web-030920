@@ -28,11 +28,16 @@ def map_to_square(source_array)
   i = 0 
   while i < source_array.length 
   new_array.push(source_array[i]**2)
+<<<<<<< HEAD
   i += 1 
+=======
+  i += 0 
+>>>>>>> 3c0343fa907e01aef325cea5e579d64bd933888a
 end
 return new_array
 end
 
+<<<<<<< HEAD
 def reduce_to_total(source_array, starting_point = 0)
   starting_point_total = 0
   total = 0 
@@ -66,5 +71,8 @@ def reduce_to_any_true(source_array)
   end
   return false
 end
+=======
+
+>>>>>>> 3c0343fa907e01aef325cea5e579d64bd933888a
 
 
